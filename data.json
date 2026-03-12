@@ -1,0 +1,93 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "tourName": "Thailand Adventure",
+      "tourLocation": "Thailand",
+      "tourFee": 1200,
+      "tourDuration": "3N/4D",
+      "tourImage": "thailand.jpeg",
+      "tourRating": 4.8,
+      "tourDescription": "Explore Thailand with guided city tours and adventure activities"
+    },
+    {
+      "id": 2,
+      "tourName": "Armenia Sightseeing",
+      "tourLocation": "Armenia",
+      "tourFee": 900,
+      "tourDuration": "5N/6D",
+      "tourImage": "armenia.jpeg",
+      "tourRating": 4.7,
+      "tourDescription": "Explore Armenia with City tour and Sightseeing."
+    },
+     {
+      "id": 3,
+      "tourName": "London Holiday",
+      "tourLocation": "London",
+      "tourFee": 900,
+      "tourDuration": "6N/7D",
+      "tourImage": "london.jpeg",
+      "tourRating": 4.7,
+      "tourDescription": "Explore London with City tour and Sightseeing."
+    },
+     {
+      "id": 4,
+      "tourName": "Ajerbaizan Sightseeing",
+      "tourLocation": "Ajerbaizan",
+      "tourFee": 900,
+      "tourDuration": "4N/5D",
+      "tourImage": "ajerbaizan.jpeg",
+      "tourRating": 4.7,
+      "tourDescription": "Explore Ajerbaizan"
+    },
+     {
+      "id": 5,
+      "tourName": "Gerorgia Sightseeing",
+      "tourLocation": "Georgia",
+      "tourFee": 900,
+      "tourDuration": "3N/4D",
+      "tourImage": "georgia.jpeg",
+      "tourRating": 4.7,
+      "tourDescription": "Explore Georgia with City tour."
+    },
+     {
+      "id": 6,
+      "tourName": "Finland",
+      "tourLocation": "Finalnd",
+      "tourFee": 900,
+      "tourDuration": "6N/7D",
+      "tourImage": "finland.jpeg",
+      "tourRating": 4.9,
+      "tourDescription": "Explore Finland Aurora lights."
+    },
+     {
+      "id": 7,
+      "tourName": "Switzerland",
+      "tourLocation": "Switzerland",
+      "tourFee": 900,
+      "tourDuration": "6N/7D",
+      "tourImage": "switzerland.jpeg",
+      "tourRating": 4.7,
+      "tourDescription": "Explore Switzerland landscape"
+    },
+     {
+      "id": 8,
+      "tourName": "Turkey Adventure",
+      "tourLocation": "Turkey",
+      "tourFee": 900,
+      "tourDuration": "4N/5D",
+      "tourImage": "turkey.jpeg",
+      "tourRating": 4.5,
+      "tourDescription": "Explore Turkey with City tour and Sightseeing."
+    }, {
+      "id": 9,
+      "tourName": "Vietnam Sightseeing",
+      "tourLocation": "Vietnam",
+      "tourFee": 900,
+      "tourDuration": "3N/4D",
+      "tourImage": "vietnam.jpeg",
+      "tourRating": 4.2,
+      "tourDescription": "Explore Vietnam with City tour."
+    }
+  ]
+}
