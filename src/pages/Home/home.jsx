@@ -1,18 +1,14 @@
-import React from "react";
-import TourList from "../../components/TourList/tourlist";
-import Hero from "../../components/Hero/hero";
-import "./home.scss";
-
+import React, { useState } from "react";
+import TourList from "../../components/TourList/TourList";
+import Cart from "../../components/Cart/cart";
 
 const Home = () => {
+  const [cartOpen, setCartOpen] = useState(false);
+
   return (
     <>
-      <Hero />
-
-      <main className="container">
-  
-        <TourList />
-      </main>
+      <TourList openCart={() => setCartOpen(true)} />
+      <Cart isOpen={cartOpen} closeCart={() => setCartOpen(false)} />
     </>
   );
 };

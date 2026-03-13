@@ -1,18 +1,32 @@
-import React, { useContext } from "react";
-import "./tourlist.scss";
-import TourCard from "../TourCard/tourcard";
-import { TourContext } from "../../context/tourcontext";
+import React, { useEffect, useState } from "react";
+import TourCard from "../TourCard/TourCard";
+import "./tourList.scss";
 
-const TourList = () => {
-  const { tours } = useContext(TourContext);
+const TourList = ({ openCart }) => {
+  const [tours, setTours] = useState([]);
+
+  // Fetch tours from server or data.json
+  useEffect(() => {
+    const fetchTours = async () => {
+      try {
+        const res = await fetch("http://localhost:3000/tours"); // json-server endpoint
+        const data = await res.json();
+        setTours(data);
+      } catch (err) {
+        console.error("Failed to fetch tours:", err);
+      }
+    };
+
+    fetchTours();
+  }, []);
+
+  if (!tours || tours.length === 0) return <p>Loading tours...</p>;
 
   return (
-    <div className="tour-list container">
-      {tours.length > 0 ? (
-        tours.map((tour) => <TourCard key={tour.id} tour={tour} />)
-      ) : (
-        <p>No tours available</p>
-      )}
+    <div className="tour-list">
+      {tours.map((tour) => (
+        <TourCard key={tour.id} tour={tour} openCart={openCart} />
+      ))}
     </div>
   );
 };
