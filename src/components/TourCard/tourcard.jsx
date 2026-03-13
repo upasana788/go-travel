@@ -6,15 +6,12 @@ const TourCard = ({ tour, openCart }) => {
   const { addToCart } = useContext(TourContext);
 
   const handleBookNow = () => {
-    // Add tour to cart with default travelers/dates
     addToCart({
       ...tour,
       travelers: 1,
       fromDate: "",
       toDate: "",
     });
-
-    // Open cart sidebar
     if (openCart) openCart();
   };
 

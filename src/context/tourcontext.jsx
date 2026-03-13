@@ -6,10 +6,10 @@ import {
   deleteBooking,
 } from "../services/bookingservice";
 
-// ✅ Create a named context
+// Create a named context
 export const TourContext = createContext();
 
-// ✅ Provider component
+//Provider component
 export const TourProvider = ({ children }) => {
   const [bookings, setBookings] = useState([]);
   const [cart, setCart] = useState([]);

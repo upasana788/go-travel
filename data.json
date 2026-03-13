@@ -101,9 +101,9 @@
       "tourImage": "finland.jpeg",
       "tourRating": 4.9,
       "tourDescription": "Explore Finland Aurora lights.",
-      "travelers": 7,
-      "fromDate": "2026-03-26",
-      "toDate": "2026-03-31"
+      "travelers": 1,
+      "fromDate": "",
+      "toDate": ""
     }
   ]
 }

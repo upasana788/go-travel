@@ -9,7 +9,7 @@ const TourList = ({ openCart }) => {
   useEffect(() => {
     const fetchTours = async () => {
       try {
-        const res = await fetch("http://localhost:3000/tours"); // json-server endpoint
+        const res = await fetch("http://localhost:3000/tours");
         const data = await res.json();
         setTours(data);
       } catch (err) {
