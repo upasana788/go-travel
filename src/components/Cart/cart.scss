@@ -9,6 +9,7 @@
   padding: 20px;
   overflow-y: auto;
   z-index: 1000;
+ 
 
   .close-btn {
     position: absolute;
@@ -20,13 +21,29 @@
     cursor: pointer;
   }
 
-  h2 { margin-top: 0; }
+  h2 { margin-top: 0;
+   color: #7B3F00; }
 
   .cart-item, .booking-item {
     border-bottom: 1px solid #ddd;
-    padding: 10px 0;
+    padding: 20px 0;
+    h3 {
+      padding-bottom:px;
+      
+    }
+    p{
+      padding-bottom:15px;
+     
+    }
 
-    input { width: 100%; margin: 5px 0; }
+    .booking-item {
+      color: black;
+    }
+
+    input { width: 100%; margin: 5px 0;    padding: 8px 8px; }
+    label{
+      color: #A0522D;
+    }
 
     button {
       margin-top: 5px;
@@ -34,12 +51,12 @@
       cursor: pointer;
       border-radius: 4px;
       border: none;
-      background-color: #27ae60;
+      background-color: #A0522D;
       color: white;
       padding: 5px 8px;
     }
 
-    button:nth-child(2) { background-color: #e74c3c; }
+    button:nth-child(2) { background-color: #A0522D; }
   }
 
   .cart-message {

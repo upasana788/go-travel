@@ -37,14 +37,14 @@ const Cart = ({ isOpen, closeCart }) => {
   return (
     <div className="cart-sidebar">
       <button className="close-btn" onClick={closeCart}>×</button>
-      <h2>My Cart</h2>
+      <h2>My Trips</h2>
 
       {cart.length === 0 && <p>No tours in cart</p>}
 
       {cart.map((item) => (
         <div key={item.id} className="cart-item">
           <h3>{item.tourName}</h3>
-          <p>Location: {item.tourLocation}</p>
+          <p>Location {item.tourLocation}</p>
           <label>
             From Date:
             <input

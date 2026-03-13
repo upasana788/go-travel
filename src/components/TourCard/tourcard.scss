@@ -27,9 +27,19 @@
     padding: 10px;
 
     .tour-location {
-      font-weight: bold;
-      color: #27ae60; // same as header color
+      font-weight: 700;
+      color: #B87333;
+      text-align: center;
+      padding-bottom:15px
     }
+    .tour-description{
+      color:#C19A6B;
+      text-align: center;
+      padding-bottom:20px
+
+    }
+    
+    
 
     .tour-meta {
       display: flex;
@@ -40,12 +50,16 @@
     .book-btn {
       width: 100%;
       padding: 8px;
-      background-color: #27ae60;
+      background-color: #B87333;
       color: white;
       border: none;
       margin-top: 10px;
       cursor: pointer;
       border-radius: 4px;
     }
+  }
+
+  .tour-fee {
+    font-weight:700;
   }
 }

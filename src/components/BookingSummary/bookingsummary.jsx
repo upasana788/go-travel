@@ -71,9 +71,6 @@ const BookingSummary = () => {
               <p>
                 Travelers: <strong>{b.travelers}</strong>
               </p>
-              <p>
-                From: {b.fromDate || "N/A"} | To: {b.toDate || "N/A"}
-              </p>
               <button onClick={() => handleEditClick(b)}>Edit</button>
             </div>
           )}

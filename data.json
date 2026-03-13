@@ -8,7 +8,7 @@
       "tourDuration": "3N/4D",
       "tourImage": "thailand.jpeg",
       "tourRating": 4.8,
-      "tourDescription": "Explore Thailand with guided city tours and adventure activities"
+      "tourDescription": "Explore Thailand with guided city tours"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "id": 3,
       "tourName": "London Holiday",
       "tourLocation": "London",
-      "tourFee": 900,
+      "tourFee": 1500,
       "tourDuration": "6N/7D",
       "tourImage": "london.jpeg",
       "tourRating": 4.7,
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "tourName": "Ajerbaizan Sightseeing",
+      "tourName": "Ajerbaizan",
       "tourLocation": "Ajerbaizan",
       "tourFee": 900,
       "tourDuration": "4N/5D",
@@ -64,7 +64,7 @@
       "id": 7,
       "tourName": "Switzerland",
       "tourLocation": "Switzerland",
-      "tourFee": 900,
+      "tourFee": 1700,
       "tourDuration": "6N/7D",
       "tourImage": "switzerland.jpeg",
       "tourRating": 4.7,
@@ -93,17 +93,17 @@
   ],
   "bookings": [
     {
-      "id": 3,
-      "tourName": "London Holiday",
-      "tourLocation": "London",
+      "id": 6,
+      "tourName": "Finland",
+      "tourLocation": "Finalnd",
       "tourFee": 900,
       "tourDuration": "6N/7D",
-      "tourImage": "london.jpeg",
-      "tourRating": 4.7,
-      "tourDescription": "Explore London with City tour and Sightseeing.",
-      "travelers": 6,
-      "fromDate": "",
-      "toDate": ""
+      "tourImage": "finland.jpeg",
+      "tourRating": 4.9,
+      "tourDescription": "Explore Finland Aurora lights.",
+      "travelers": 7,
+      "fromDate": "2026-03-26",
+      "toDate": "2026-03-31"
     }
   ]
 }

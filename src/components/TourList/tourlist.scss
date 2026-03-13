@@ -1,8 +1,24 @@
-@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles//variables.scss" as *;
 
-.tour-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: $spacing;
-  margin-top: $spacing;
+
+.tour-list-container {
+  max-width: 1200px; 
+  width: 100%;          
+  margin: 0 auto;     
+  padding: 0 20px;    
+
+  .tour-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
+  }
 }
